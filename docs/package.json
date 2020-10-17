@@ -1,0 +1,19 @@
+{
+  "name": "laRivoltaSite",
+  "version": "0.0.1",
+  "description": "laRivolta Site",
+  "main": "index.js",
+  "authors": {
+    "name": "laRivolta",
+    "email": "hola@larivolta.es"
+  },
+  "repository": "laRivolta/site/laRivoltaSite",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
