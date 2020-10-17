@@ -1,5 +1,5 @@
 {
-  "name": "laRivoltaSite",
+  "name": "la-rivolta-site",
   "version": "0.0.1",
   "description": "laRivolta Site",
   "main": "index.js",
@@ -7,12 +7,15 @@
     "name": "laRivolta",
     "email": "hola@larivolta.es"
   },
-  "repository": "laRivolta/site/laRivoltaSite",
+  "repository": "laRivolta/site",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "license": "MIT",
+  "dependencies": {
+    "vuepress-theme-bulma": "^1.1.0"
+  },
   "devDependencies": {
     "vuepress": "^1.5.3"
   }
