@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <a href="https://github.cmo/larivolta" target="_blank">
+    <a href="https://github.com/larivolta" target="_blank">
         <img :src="$withBase('/github-logo.png')" alt="github-logo">
     </a>
   </div>
